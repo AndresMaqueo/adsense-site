@@ -1,0 +1,56 @@
+/* Reset CSS básico para consistencia */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografía moderna y legible */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: #1f2937;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Contenedor centrado y con max ancho */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Títulos con buen contraste */
+h1, h2, h3 {
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+/* Enlaces estilizados */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #1e40af;
+}
+
+/* Botones modernos */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #1e40af;
+}

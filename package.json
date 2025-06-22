@@ -1,0 +1,29 @@
+{
+  "name": "adsense-site",
+  "version": "1.0.0",
+  "description": "Sitio optimizado para GitHub Pages + Google AdSense",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run minify-css && npm run minify-js",
+    "minify-css": "cleancss -o css/style.min.css css/style.css",
+    "minify-js": "uglifyjs js/app.js -o js/app.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresMaqueo/adsense-site.git"
+  },
+  "keywords": [],
+  "author": "Andrés Maqueo",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AndresMaqueo/adsense-site/issues"
+  },
+  "homepage": "https://inversionand.com",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "uglify-js": "^3.19.3"
+  }
+}
+
